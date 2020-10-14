@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,5 +11,44 @@ code {
     monospace;
 }
 .showcase-img{
-  width: 20em;
+  width: 45em;
+}
+.showcase-img-dating{
+  width: 57em;
+}
+.dog-header-container{
+	width: 50%;
+	text-align: center;
+}
+.dog-header-content{
+	width: 50%;
+  margin-top: 16%;
+}
+.header-container{
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-around;
+}
+.header-text{
+  font-size: 4em;
+}
+.header-subtext{
+  font-size: 25px;
+}
+.woof-button{
+  margin-top: 5%;
+  padding: 2% 8%;
+  border: .5px solid #ccc;
+  border-radius: 6px;
+}
+.carousel-control.left{
+  background-image: none;
+}
+.carousel-control.right{
+  background-image: none;
+}
+.InterSectionBanner-container{
+  height: 300px;
 }

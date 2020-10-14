@@ -19,13 +19,18 @@ function Routes() {
     <Router>
       <NavBar />
       <Switch>
+        <Route path="/auth">
+          <OAuth />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
         <Route exact path="/About">
           <AboutUs />
         </Route>
         <Route exact path="/shop">
           <Shop />
         </Route>
-        <OAuth />
       </Switch>
     </Router>
   )
@@ -35,13 +40,10 @@ function OAuth() {
   return(
     <Router>
       <Switch>
-      <Route path="/auth">
-        <Auth />
-      </Route>
-      <Route exact path="/">
-        <Home />
-      </Route>
-    </Switch>
+        <Route path="/auth">
+          <Auth />
+        </Route>
+      </Switch>
     </Router>
   )
 }

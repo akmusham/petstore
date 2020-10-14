@@ -17,7 +17,7 @@ function NavBar() {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <Link class="navbar-brand" to="/">PawSale</Link>
+              <Link class="navbar-brand" to="/">IKC</Link>
             </div>
 
           <div class="collapse navbar-collapse pull-right " id="navi">
